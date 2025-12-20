@@ -1,3 +1,6 @@
+## About Infosystem
+ Simple Nuxt (Vue Server Side rendering framework) ticket system to get events and buy them
+
 ## Setup
 Make sure to install dependencies:
 npm install
