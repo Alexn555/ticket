@@ -1,17 +1,15 @@
 <script setup lang="ts">
     const route = useRoute();
     const priceEventId = route.params.id; 
-    let priceEvt = null;
-
-    const { } = await useFetch('/api/event', {
+    let priceEvt = ref();
+    await useFetch('/api/event', {
         query: { id: priceEventId },
         onResponse ({ request, response }) {
-            if (response) {
-                priceEvt = response._data !== undefined ? response._data.data : null;
+            if (response && response._data !== undefined) {
+                priceEvt.value = response._data.data;
             }
         },
     });
-   
 </script>
 
 <style scoped>
@@ -19,7 +17,7 @@
 </style>
 
 <template>
-    <div class="events" v-if="priceEvt !== null">
+    <div class="events" v-if="priceEvt">
         <h3>Event in details</h3>
         <Event :priceEvent="priceEvt" />
     </div>
