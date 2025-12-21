@@ -1,0 +1,6 @@
+ .events {
+    font-size: 14px;
+    padding: 2rem;
+    background: #ebcb73;
+    background: linear-gradient(180deg, rgba(235, 203, 115, 1) 64%, rgba(237, 125, 81, 1) 100%);
+}
