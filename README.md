@@ -16,29 +16,29 @@ Build the application for production:
 npm run build
 
 ## Structure 
- Client side 
-   app 
-     app / components
-	   app.vue
-             Events.vue - list
-             Event.vue - 1 item
-             BuyTicket.vue - Buy button		
+ Client side  <br />
+   app  <br />
+     app / components <br />
+	   app.vue  <br />
+             Events.vue - list <br />
+             Event.vue - 1 item  <br />
+             BuyTicket.vue - Buy button	<br />	 
 
-    types - Model types			 
+    types - Model types		<br />	  
 	 
 	content - exact copy of https://norwaydict.com/ticket/content repository for images
 	 
  Server 
-   Nuxt Server 
-    api / 
-	  events - list of all events (any token as parameter)
-	            example: http://localhost:3000/api/events?token=a1000
-	  event - 1 event if id provided
-	            example: http://localhost:3000/api/event?id=a0015
-	  create -  test GET api to send POST call 
-                example: https://localhost:3000/api/event-create/test
-                POST api  
-				example: https://localhost:3000/api/event-create
+   Nuxt Server  <br />
+    api /  <br />
+	  events - list of all events (any token as parameter)  <br />
+	            example: http://localhost:3000/api/events?token=a1000 <br />
+	  event - 1 event if id provided  <br />
+	            example: http://localhost:3000/api/event?id=a0015  <br />
+	  create -  test GET api to send POST call  <br />
+                example: https://localhost:3000/api/event-create/test  <br />
+                POST api   <br />
+				example: https://localhost:3000/api/event-create  <br />
 				
 				
 
