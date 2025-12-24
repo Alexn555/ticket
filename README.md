@@ -26,8 +26,12 @@ npm run build
 
     types - Model types		<br />	  
 	 
-	content - exact copy of https://norwaydict.com/ticket/content repository for images
+	content - exact copy of https://norwaydict.com/ticket/content repository for images </br>
 	 
+
+ Demo production version:  <br />
+   https://norwaydict.com/ticket  <br />
+
  Server 
    Nuxt Server  <br />
     api /  <br />
