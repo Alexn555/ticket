@@ -6,6 +6,12 @@
         },
     });
     const { priceEvent } = props;
+
+    const buyTicket = (event) => {
+        if (event) {
+            console.log('buy ticket handle ', event.target.id);
+        }
+    };
 </script>
 
 <style scoped>
@@ -45,7 +51,7 @@
 
         <div class="available"> available: {{ priceEvent.available }}
             <div>
-                <BuyTicket />
+                <BuyTicket v-bind:id="priceEvent.id" @click="buyTicket" />
             </div>
         </div>
     </div>

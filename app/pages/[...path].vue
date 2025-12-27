@@ -1,7 +1,9 @@
 <script>
-    export default {
-      name: "NotFoundPage",
-    };
+  import NxLink from '~/components/NxLink.vue';
+
+  export default {
+    name: "NotFoundPage",
+  };
 </script>
 
 <style scoped>
@@ -18,8 +20,6 @@
     <p>
       The page you're looking for doesn't exist.
     </p>
-    <NuxtLink to="/">
-      Go Back to Home
-    </NuxtLink>
+    <NxLink path="/" label="Go Back to Home" />
   </div>
 </template>
