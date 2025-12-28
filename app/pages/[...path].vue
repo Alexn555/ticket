@@ -1,6 +1,4 @@
-<script>
-  import NxLink from '~/components/NxLink.vue';
-
+<script>  
   export default {
     name: "NotFoundPage",
   };

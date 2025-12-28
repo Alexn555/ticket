@@ -37,7 +37,7 @@
         </div>
 
         <div class="link">
-             <NuxtLink :to="{ name: 'events-id', params: { id: priceEvt.id } }">
+            <NuxtLink :to="{ name: 'events-id', params: { id: priceEvt.id } }">
                 Show more details
             </NuxtLink>
         </div>

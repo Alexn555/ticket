@@ -1,4 +1,5 @@
 <script setup>
+    import BuyTicket from './ui/BuyTicket.vue';
     const props = defineProps({
         priceEvent: {
             type: Object,
